@@ -33,7 +33,7 @@ group :doc do
 end
 
 group :test do
-  gem 'cucumber-rails', require: false
+  gem 'cucumber-rails', require: false, github: 'cucumber/cucumber-rails', branch: 'fix-rails-requiring-mini-test'
   gem 'database_cleaner'
   gem 'rspec-rails'
 end
